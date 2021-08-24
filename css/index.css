@@ -6,9 +6,9 @@ body {
   height: 100vh;
   overflow-x: hidden;
   background: rgb(221,221,221);
-  background: -moz-linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 40%);
-  background: -webkit-linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 40%);
-  background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 40%);
+  background: -moz-linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 60%);
+  background: -webkit-linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 60%);
+  background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 60%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dddddd",endColorstr="#ffffff",GradientType=1);
   font-family: "Neue Haas Grotesk", sans-serif;
   font-weight: 400;
