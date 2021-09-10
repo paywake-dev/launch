@@ -118,12 +118,16 @@
             <br>
             <p>Like what you see? Drop your number below and we'll hit you up soon for <b>early access</b>.</p>
             <br>
-            <input type="text" id="name" class="name" placeholder="What's your name?" maxlength="32">
-            <input inputmode="numeric" pattern="[0-9]*" type="text" id="phone" class="phone" placeholder="(123) 456-7890" maxlength="14" onkeyup="phoneFormatter(this)" onpaste="phoneFormatter(this)">
-            <p class="small">*Paywake is only available in the U.S.</p>
+            <input type="text" id="name" class="name" placeholder="What's your name?" maxlength="32" onblur="verifyName(this)">
+            <input inputmode="numeric" pattern="[0-9]*" type="text" id="phone" class="phone" placeholder="(123) 456-7890" maxlength="14" onkeyup="phoneFormatter(this)" onpaste="phoneFormatter(this)" onblur="verifyPhone(this)">
+            <p class="small before-success">*Paywake is only available in the U.S.</p>
             <br>
             <div class="middle">
-              <button class="gradient">Notify Me</button>
+              <button class="gradient before-success" onclick="submit()" id="submit">Notify Me</button>
+            </div>
+            <p class="post-submit after-success"><b>You're now on our early access list.</b>&nbsp;We'll keep in touch.</p>
+            <div class="middle after-success">
+              <img src="assets/images/rocket-emoji.png" width="64" height="64">
             </div>
           </div>
         </div>

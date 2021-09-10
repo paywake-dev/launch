@@ -288,6 +288,18 @@ h1.gradient {
   font-family: 'Urbanist', sans-serif;
 }
 
+input {
+  transition: border-color ease 0.2s;
+}
+
+input[invalid=true] {
+  border-color: red !important;
+}
+
+input[readonly=true] {
+  opacity: 0.4;
+}
+
 input.phone {
   border: none;
   outline: none;
@@ -384,4 +396,15 @@ input.name {
   text-decoration: none;
   padding: 12px;
   margin: 0px;
+}
+
+.after-success {
+  display: none;
+}
+
+.launch > p.post-submit {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 32px;
 }
