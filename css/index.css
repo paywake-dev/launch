@@ -310,6 +310,9 @@ input.phone {
   width: 300px;
   background: url('../assets/images/us-flag.png') no-repeat left;
   background-size: 30px;
+  background-position: left;
+  background-repeat: no-repeat;
+  image-orientation: none;
   color: white;
   font-size: 20px;
   line-height: 20px;
@@ -431,4 +434,8 @@ input.name {
 
 .estimate-info > img:active {
   opacity: 0.3;
+}
+
+#roughly {
+  opacity: 0.4;
 }
