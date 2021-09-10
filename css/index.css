@@ -408,3 +408,27 @@ input.name {
   text-align: center;
   margin-bottom: 32px;
 }
+
+.estimate-info {
+  width: 300px;
+  height: 0px;
+  margin-top: -38px;
+  margin-bottom: 27px;
+  padding-right: 1px;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.estimate-info > img {
+  width: 16px;
+  height: 16px;
+  opacity: 0.4;
+  float: right;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: opacity linear 0.1s;
+}
+
+.estimate-info > img:active {
+  opacity: 0.3;
+}

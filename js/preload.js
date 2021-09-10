@@ -97,3 +97,11 @@ const success = () => {
   $(".before-success").css("display", "none")
   $(".after-success").removeClass("after-success")
 }
+
+const estimateAlert = () => {
+  const deposit = Math.round(document.getElementsByClassName("slider")[0].value)
+  const returns =  (Math.floor(deposit * ((ESTIMATED_RETURN / 100) + 1) * 100) / 100)
+  const dollarString = (Math.floor(returns).toString() + ("." + Math.round((returns - Math.floor(returns)) * 100).toString().padEnd(2, "0")))
+  const text = ("This $" + dollarString + " return figure is based on our beta tests and subject to change.")
+  alert(text)
+}
