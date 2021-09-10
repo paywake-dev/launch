@@ -1,6 +1,6 @@
 const YEAR = (new Date()).getFullYear()
 
-const COLLECT_API = "https://u2g5o06dl0.execute-api.us-west-1.amazonaws.com/dev/index/collect"
+const COLLECT_API = "https://ug3on9zs62.execute-api.us-east-1.amazonaws.com/dev/index/collect"
 const ESTIMATED_RETURN = 10
 const SLIDER_INIT_MIN = 30
 const SLIDER_INIT_MAX = 80
