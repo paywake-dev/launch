@@ -105,3 +105,7 @@ const estimateAlert = () => {
   const text = ("This $" + dollarString + " return figure is based on our beta tests and subject to change.")
   alert(text)
 }
+
+const getStartedClick = () => {
+  document.getElementById("name").focus()
+}
