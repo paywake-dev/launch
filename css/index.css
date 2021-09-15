@@ -440,3 +440,21 @@ input.name {
 #roughly {
   opacity: 0.4;
 }
+
+.content {
+  transition: opacity ease 1.1s, transform ease 1.1s;
+}
+
+.content > .splash > h1 {
+  transition: opacity ease 1.2s, transform ease 1.2s;
+}
+
+.content.unloaded {
+  transform: translateY(13vh);
+  opacity: 0;
+}
+
+.content > .splash > .unloaded {
+  transform: translateY(-6vh);
+  opacity: 0.4;
+}
