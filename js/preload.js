@@ -35,8 +35,24 @@ const slider = (obj) => {
 }
 
 const sliderInit = (obj) => {
-  obj.value = (Math.floor(Math.random() * (SLIDER_INIT_MAX - SLIDER_INIT_MIN)) + SLIDER_INIT_MIN)
+  const steps = 60
+  const finalPosition = (Math.floor(Math.random() * (SLIDER_INIT_MAX - SLIDER_INIT_MIN)) + SLIDER_INIT_MIN)
+  const duration = ((SLIDER_DURATION_MS / SLIDER_INIT_MAX) * finalPosition)
+  let counter = 0
+  obj.value = 5
   slider(obj)
+  const interval = setInterval(() => {
+    if (counter < steps) {
+      obj.value = (5 + ((finalPosition - 5) * Math.pow((counter / steps), (1 / 3))))
+      slider(obj)
+      counter++
+    }
+    else {
+      obj.value = finalPosition
+      slider(obj)
+      clearInterval(interval)
+    }
+  }, (duration / steps))
 }
 
 const updateCountdown = (obj) => {

@@ -217,6 +217,7 @@ p.legal > a {
   width: 100vmax;
   margin-left: calc(150px - 50vmax);
   margin-top: -6vmax;
+  transform: translateY(-5px);
   box-sizing: border-box;
 }
 
