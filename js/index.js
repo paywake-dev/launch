@@ -13,4 +13,6 @@ const countdown = setInterval(() => {
 sliderInit(document.getElementsByClassName("slider")[0])
 updateCountdown(document.getElementById("countdown"))
 
-$(".unloaded").removeClass("unloaded")
+setTimeout(() => {
+  $(".unloaded").removeClass("unloaded")
+}, 5)
