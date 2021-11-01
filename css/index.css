@@ -1,4 +1,4 @@
-html, body {
+  html, body {
   overflow-x: hidden;
 }
 
@@ -248,16 +248,16 @@ p.legal > a {
 }
 
 .launch > h2 {
-  font-size: 44px;
-  line-height: 44px;
+  font-size: 51px;
+  line-height: 51px;
   font-weight: 600;
   margin: 0px;
   text-align: center;
 }
 
 .launch > h1 {
-  font-size: 170px;
-  line-height: 170px;
+  font-size: 144px;
+  line-height: 144px;
   transform: translateX(-2px);
   font-weight: 100;
   margin: 0px;
