@@ -215,7 +215,11 @@ p.legal > a {
 
 .tear-image {
   z-index: 2;
-  width: 100vmax;
+  width: 100vw;
+  height: calc((100vmax * 0.12551664128));
+  background-image: url("../assets/images/tear-logo.png");
+  background-position: center;
+  background-size: 100vmax;
   margin-left: calc(150px - 50vmax);
   margin-top: -6vmax;
   transform: translateY(-5px);
@@ -464,6 +468,6 @@ input.name {
   .header {
     backdrop-filter: blur(20px) saturate(200%) !important;
     -webkit-backdrop-filter: blur(20px) saturate(200%) !important;
-    background: rgba(255,255,255,0.7) !important;
+    background: rgba(255,255,255,0.8) !important;
   }
 }
