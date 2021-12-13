@@ -220,7 +220,7 @@ p.legal > a {
   background-image: url("../assets/images/tear-logo.png");
   background-position: center;
   background-size: 100vmax;
-  margin-left: calc(150px - 50vmax);
+  margin-left: calc(150px - 50vw);
   margin-top: -6vmax;
   transform: translateY(-5px);
   box-sizing: border-box;
@@ -229,8 +229,8 @@ p.legal > a {
 .launch-container {
   background: black;
   background-color: black;
-  width: 150vw;
-  margin-left: calc(150px - 75vw);
+  width: 100vw;
+  margin-left: calc(150px - 50vw);
   box-sizing: border-box;
   display: flex;
   align-items: center;
