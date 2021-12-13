@@ -75,7 +75,7 @@ body {
 }
 
 .splash {
-  width: 300px;
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
 }
 
 .splash > h1 {
@@ -128,7 +128,7 @@ button:active {
 
 
 .bounds {
-  width: 300px;
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -173,7 +173,7 @@ button:active {
 }
 
 .middle {
-  width: 300px;
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -220,7 +220,7 @@ p.legal > a {
   background-image: url("../assets/images/tear-logo.png");
   background-position: center;
   background-size: 100vmax;
-  margin-left: calc(150px - 50vw);
+  margin-left: min(calc(37.5px - 20vw), calc(30vh + 75px - 50vw));
   margin-top: -6vmax;
   transform: translateY(-5px);
   box-sizing: border-box;
@@ -230,7 +230,7 @@ p.legal > a {
   background: black;
   background-color: black;
   width: 100vw;
-  margin-left: calc(150px - 50vw);
+  margin-left: min(calc(37.5px - 20vw), calc(30vh + 75px - 50vw));
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -242,7 +242,7 @@ p.legal > a {
 }
 
 .launch {
-  width: 300px;
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
   padding-bottom: 2vh;
   box-sizing: border-box;
   font-family: 'Urbanist', sans-serif;
@@ -258,8 +258,8 @@ p.legal > a {
 }
 
 .launch > h1 {
-  font-size: 144px;
-  line-height: 144px;
+  font-size: min(calc(28.88vw + 36.10px), calc(28.88vh + 72.19px));
+  line-height: min(calc(28.88vw + 36.10px), calc(28.88vh + 72.19px));
   transform: translateX(-2px);
   font-weight: 100;
   margin: 0px;
@@ -313,7 +313,7 @@ input.phone {
   padding: 16px;
   padding-left: 48px;
   box-sizing: border-box;
-  width: 300px;
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
   background: url('../assets/images/us-flag.png') no-repeat left;
   background-size: 30px;
   background-position: left;
@@ -339,7 +339,7 @@ input.name {
   padding: 16px;
   background: transparent;
   box-sizing: border-box;
-  width: 300px;
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
   color: white;
   font-size: 20px;
   line-height: 20px;
@@ -419,7 +419,7 @@ input.name {
 }
 
 .estimate-info {
-  width: 300px;
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
   height: 0px;
   margin-top: -38px;
   margin-bottom: 27px;
