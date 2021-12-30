@@ -451,6 +451,10 @@ input.name {
   opacity: 0.4;
 }
 
+#name {
+  padding-left: 0px;
+}
+
 .content {
   transition: opacity ease 1.1s, transform ease 1.1s;
 }
