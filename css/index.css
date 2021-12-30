@@ -1,4 +1,4 @@
-  html, body {
+html, body {
   overflow-x: hidden;
 }
 
@@ -126,6 +126,10 @@ button:active {
   opacity: 0.8;
 }
 
+button.full-width {
+  width: min(calc(60vw + 75px), calc(60vh + 150px));
+  max-width: 300px;
+}
 
 .bounds {
   width: min(calc(60vw + 75px), calc(60vh + 150px));
@@ -250,8 +254,8 @@ p.legal > a {
 }
 
 .launch > h2 {
-  font-size: 51px;
-  line-height: 51px;
+  font-size: 52px;
+  line-height: 52px;
   font-weight: 600;
   margin: 0px;
   text-align: center;
@@ -265,6 +269,7 @@ p.legal > a {
   margin: 0px;
   text-align: center;
   margin-bottom: 0px;
+  margin-left: -1px;
 }
 
 h1.gradient {
