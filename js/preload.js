@@ -76,9 +76,14 @@ const verifyName = (obj) => {
 
 const verifyPhone = (obj) => {
   const phone = cleanPhone(obj.value)
-  if (phone.length === 10) {
+  if (phone.length === 10 && phone !== "6969696969" && phone !== "9696969696") {
     obj.removeAttribute("invalid")
     return phone
+  }
+  else {
+    if (phone === "6969696969" || phone === "9696969696") {
+      alert("Fuck off.")
+    }
   }
   obj.setAttribute("invalid", "true")
   return false
